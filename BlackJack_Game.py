@@ -1,4 +1,4 @@
-import playing_cards
+import Playing_Cards
 
 def display_details():
 
@@ -144,7 +144,7 @@ def play_player_hand(hand):
 
         if(hitChoice.lower() == 'h'):
 
-            card = playing_cards.deal_one_card()
+            card = Playing_Cards.deal_one_card()
 
             player_hand.append(card)
 
@@ -176,7 +176,7 @@ def play_dealer_hand(hand):
 
     while dealerTotal < 17:
 
-        card = playing_cards.deal_one_card()
+        card = Playing_Cards.deal_one_card()
 
         dealer_hand.append(card)
 
@@ -232,19 +232,19 @@ while choice.lower() != 'n':
 
         dealer_hand = []
 
-        card = playing_cards.deal_one_card()
+        card = Playing_Cards.deal_one_card()
 
         player_hand.append(card)
 
-        card = playing_cards.deal_one_card()
+        card = Playing_Cards.deal_one_card()
 
         dealer_hand.append(card)
 
-        card = playing_cards.deal_one_card()
+        card = Playing_Cards.deal_one_card()
 
         player_hand.append(card)
 
-        card = playing_cards.deal_one_card()
+        card = Playing_Cards.deal_one_card()
 
         dealer_hand.append(card)
 
